@@ -18,7 +18,7 @@ def check_pwned_pwd(pw_in):
 
 def check_pwned_account(accounts):
     for account in accounts:
-        r = requests.get('https://haveibeenpwned.com/api/v2/breachedaccount/{0}'.format(account[0]))
+        r = requests.get('https://haveibeenpwned.com/api/v2/breachedaccount/{0}'.format(account))
         if r.text:
             for breach in r.json():
                 print('{0} -> Account breached at : {1} - {2}'.format(account,breach['Name'], breach['BreachDate']))
