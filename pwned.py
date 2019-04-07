@@ -26,7 +26,7 @@ def check_pwned_account(accounts):
             print("No breach as been found")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Report Tool to gather Information from the DCGY API.')
+    parser = argparse.ArgumentParser(description="Check if a user account or password has been found in the haveibeenpwned database")
     parser.add_argument('-p','--p', nargs='+')
     parser.add_argument('-u','--u', nargs='+')
     
