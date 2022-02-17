@@ -1,4 +1,3 @@
-[![CodeQL](https://github.com/rangulvers/beenpwned/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/rangulvers/beenpwned/actions/workflows/codeql-analysis.yml)
 [![Python package](https://github.com/rangulvers/beenpwned/actions/workflows/python-package.yml/badge.svg)](https://github.com/rangulvers/beenpwned/actions/workflows/python-package.yml)
 [![Upload PyPi](https://github.com/rangulvers/beenpwned/actions/workflows/python-publish.yml/badge.svg)](https://github.com/rangulvers/beenpwned/actions/workflows/python-publish.yml)
 
