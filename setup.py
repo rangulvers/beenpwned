@@ -4,15 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pwned",
+    name="h1bp",
     version="0.1.0",
     author="rangulvers",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/rangulvers/pwned",
+    url="https://github.com/rangulvers/h1bp",
     project_urls={
-        "Bug Tracker": "https://github.com/rangulvers/pwned/issues",
+        "Bug Tracker": "https://github.com/rangulvers/h1bp/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
