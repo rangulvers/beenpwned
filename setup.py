@@ -4,10 +4,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="h1bp",
+    name="py-h1bp",
     version="0.1.0",
     author="rangulvers",
-    description="A small example package",
+    description="Check if you have been pwned",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/rangulvers/h1bp",
