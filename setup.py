@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="beenpwned",
-    version="0.1.0",
+    version="0.1.1",
     author="rangulvers",
     description="Check if you have been pwned",
     long_description=long_description,
